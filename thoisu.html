@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Báo Thời Sự</title>
+  <!-- Bootstrap CSS -->
+  <link rel="icon" href="https://inuvdp.com/wp-content/uploads/2022/05/logo-doan-thanh-nien-02.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding: 20px;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .news-title {
+      font-weight: bold;
+    }
+    .news-category {
+      font-size: 0.9em;
+      color: grey;
+    }
+    .news-item {
+      margin-bottom: 30px;
+    }
+    .news-item img {
+      max-width: 100%;
+      height: auto;
+    }
+    a:hover{
+        color:blue;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tin Tức</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thoisu.html">Thời sự</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thegioi.html">Thế giới</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/kinhte.html">Kinh tế</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/doisong.html">Đời sống</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/suckhoe.html">Sức khỏe</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/gioitre.html">Giới trẻ</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaoduc.html">Giáo dục</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/dulich.html">Du lịch</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/vanhoa.html">Văn hóa</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaitri.html">Giải trí</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thethao.html">Thể thao</a></li>
+          <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/congnghe.html">Công nghệ</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <!-- News Section -->
+  <div class="container">
+    <!-- First News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/cong-an-tong-kiem-tra-tai-xe-o-cho-dau-moi-thu-duc-185241005093049149.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/10/5/17e65aa9d8f561ab38e4-17280943564432093445285.jpg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/cong-an-tong-kiem-tra-tai-xe-o-cho-dau-moi-thu-duc-185241005093049149.htm">
+        <div class="news-category">Tin tức thời sự</div>
+        <h4 class="news-title">Công an tổng kiểm tra tài xế ở chợ đầu mối Thủ Đức</h4>
+        <p>
+          Công an TP.Thủ Đức phối hợp Phòng CSGT Công an TP.HCM tổng kiểm tra, xử lý lòng lề đường, kiểm soát ma túy, nồng độ cồn đối với tài xế ở chợ đầu mối nông sản Thủ Đức (chợ đầu mối Thủ Đức).
+        </p></a>
+      </div>
+    </div>
+
+    <!-- Second News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/hon-7600-dang-vien-can-bo-cong-vien-chuc-vi-pham-nong-do-con-185241005085236894.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/10/5/4614540955438295548700011757790764636700450n-17280929742391589825525.jpg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/hon-7600-dang-vien-can-bo-cong-vien-chuc-vi-pham-nong-do-con-185241005085236894.htm"><div class="news-category">Tin tức thời sự</div>
+        <h4 class="news-title">Hơn 7.600 đảng viên, cán bộ, công viên chức vi phạm nồng độ cồn</h4>
+        <p>
+          Trong năm 2023 và quý 1/2024, lực lượng công an đã kiểm tra, xử lý vi phạm hành chính và xác minh gửi thông báo về cơ quan, đơn vị quản lý đối với trên 7.600 đảng viên, cán bộ, công chức, viên chức vi phạm nồng độ cồn.
+        </p></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

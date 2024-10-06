@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Báo Du Lịch</title>
+  <!-- Bootstrap CSS -->
+  <link rel="icon" href="https://inuvdp.com/wp-content/uploads/2022/05/logo-doan-thanh-nien-02.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding: 20px;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .news-title {
+      font-weight: bold;
+    }
+    .news-category {
+      font-size: 0.9em;
+      color: grey;
+    }
+    .news-item {
+      margin-bottom: 30px;
+    }
+    .news-item img {
+      max-width: 100%;
+      height: auto;
+    }
+    a:hover{
+        color:blue;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tin Tức</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thoisu.html">Thời sự</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thegioi.html">Thế giới</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/kinhte.html">Kinh tế</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/doisong.html">Đời sống</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/suckhoe.html">Sức khỏe</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/gioitre.html">Giới trẻ</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaoduc.html">Giáo dục</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/dulich.html">Du lịch</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/vanhoa.html">Văn hóa</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaitri.html">Giải trí</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thethao.html">Thể thao</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/congnghe.html">Công nghệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- News Section -->
+  <div class="container">
+    <!-- First News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/khach-han-quoc-tieu-tien-o-viet-nam-nhieu-thu-hai-chau-a-185241005065450723.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/10/5/1000018281-1728086455554525283582.jpg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/khach-han-quoc-tieu-tien-o-viet-nam-nhieu-thu-hai-chau-a-185241005065450723.htm">
+        <div class="news-category">Tin tức du lịch</div>
+        <h4 class="news-title">Khách Hàn Quốc tiêu tiền ở Việt Nam nhiều thứ hai châu Á</h4>
+        <p>
+            Một phân tích dữ liệu cho thấy, khách Hàn Quốc đến Việt Nam chi tiêu tăng mạnh, chỉ đứng sau điểm đến Nhật Bản.
+        </p></a>
+      </div>
+    </div>
+
+    <!-- Second News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/doanh-nghiep-dieu-dung-vi-tau-chim-tren-vinh-ha-long-trong-bao-so-3-185241003103739158.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/10/3/z58912611430823af2cdbb954269b56e41b2b7c4a9144f-1727926371595513978066.jpg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/doanh-nghiep-dieu-dung-vi-tau-chim-tren-vinh-ha-long-trong-bao-so-3-185241003103739158.htm"><div class="news-category">Tin tức du lịch</div>
+        <h4 class="news-title">Doanh nghiệp điêu đứng vì tàu chìm trên vịnh Hạ Long trong bão số 3</h4>
+        <p>
+            Bão số 3 làm hàng chục tàu du lịch đắm, chìm dưới vịnh Hạ Long, khiến nhiều doanh nghiệp điêu đứng, kiệt quệ.
+        </p></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

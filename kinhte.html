@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Báo Kinh Tế</title>
+  <!-- Bootstrap CSS -->
+  <link rel="icon" href="https://inuvdp.com/wp-content/uploads/2022/05/logo-doan-thanh-nien-02.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding: 20px;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .news-title {
+      font-weight: bold;
+    }
+    .news-category {
+      font-size: 0.9em;
+      color: grey;
+    }
+    .news-item {
+      margin-bottom: 30px;
+    }
+    .news-item img {
+      max-width: 100%;
+      height: auto;
+    }
+    a:hover{
+        color:blue;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tin Tức</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thoisu.html">Thời sự</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thegioi.html">Thế giới</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/kinhte.html">Kinh tế</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/doisong.html">Đời sống</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/suckhoe.html">Sức khỏe</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/gioitre.html">Giới trẻ</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaoduc.html">Giáo dục</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/dulich.html">Du lịch</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/vanhoa.html">Văn hóa</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaitri.html">Giải trí</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thethao.html">Thể thao</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/congnghe.html">Công nghệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- News Section -->
+  <div class="container">
+    <!-- First News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/gia-vang-hom-nay-5102024-vang-nhan-neo-o-muc-ky-luc-gan-84-trieu-dong-185241005083031506.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/10/5/vang-moi-2024-cua-nt-17280932673271272847146.jpg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/gia-vang-hom-nay-5102024-vang-nhan-neo-o-muc-ky-luc-gan-84-trieu-dong-185241005083031506.htm">
+        <div class="news-category">Tin tức kinh tế</div>
+        <h4 class="news-title">Giá vàng hôm nay 5.10.2024: Vàng nhẫn neo ở mức kỷ lục gần 84 triệu đồng</h4>
+        <p>
+            Giá vàng trong nước không thay đổi trong phiên cuối tuần khi thế giới quay đầu giảm nhẹ.
+        </p></a>
+      </div>
+    </div>
+
+    <!-- Second News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/gia-usd-hom-nay-5102024-do-tu-do-giam-185241005085015802.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/5/1/usd-17145518942101056868256.jpg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/gia-usd-hom-nay-5102024-do-tu-do-giam-185241005085015802.htm"><div class="news-category">Tin tức kinh tế</div>
+        <h4 class="news-title">Giá USD hôm nay 5.10.2024: Đô tự do giảm</h4>
+        <p>
+            Các ngân hàng tăng giảm giá USD trái chiều, trong khi đô la tự do giảm nhẹ sau đợt tăng mạnh trước đó.
+        </p></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

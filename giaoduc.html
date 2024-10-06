@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Báo Giáo Dục</title>
+  <!-- Bootstrap CSS -->
+  <link rel="icon" href="https://inuvdp.com/wp-content/uploads/2022/05/logo-doan-thanh-nien-02.jpg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding: 20px;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .news-title {
+      font-weight: bold;
+    }
+    .news-category {
+      font-size: 0.9em;
+      color: grey;
+    }
+    .news-item {
+      margin-bottom: 30px;
+    }
+    .news-item img {
+      max-width: 100%;
+      height: auto;
+    }
+    a:hover{
+        color:blue;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tin Tức</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thoisu.html">Thời sự</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thegioi.html">Thế giới</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/kinhte.html">Kinh tế</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/doisong.html">Đời sống</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/suckhoe.html">Sức khỏe</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/gioitre.html">Giới trẻ</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaoduc.html">Giáo dục</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/dulich.html">Du lịch</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/vanhoa.html">Văn hóa</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/giaitri.html">Giải trí</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/thethao.html">Thể thao</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:5500/congnghe.html">Công nghệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- News Section -->
+  <div class="container">
+    <!-- First News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/hieu-truong-chia-se-chuyen-lam-chu-cong-nghe-trong-le-khai-giang-185241005151531873.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/10/5/20241005093129-17281048448812027601979.jpg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/hieu-truong-chia-se-chuyen-lam-chu-cong-nghe-trong-le-khai-giang-185241005151531873.htm">
+        <div class="news-category">Tin tức giáo dục</div>
+        <h4 class="news-title">Hiệu trưởng chia sẻ chuyện làm chủ công nghệ trong lễ khai giảng</h4>
+        <p>
+            'Là thế hệ trẻ trong thời đại kỹ thuật số, thầy mong rằng các em đủ bản lĩnh, đủ thông minh để dần làm chủ công nghệ'.
+        </p></a>
+      </div>
+    </div>
+
+    <!-- Second News Item -->
+    <div class="row news-item">
+      <div class="col-md-4">
+        <a href="https://thanhnien.vn/mot-truong-dh-danh-hon-9-ti-dong-khen-thuong-va-trao-hoc-bong-185241005120334857.htm"><img src="https://images2.thanhnien.vn/528068263637045248/2024/10/5/base64-17281140105331443118198.jpeg" alt="News Image"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://thanhnien.vn/mot-truong-dh-danh-hon-9-ti-dong-khen-thuong-va-trao-hoc-bong-185241005120334857.htm"><div class="news-category">Tin tức giáo dục</div>
+        <h4 class="news-title">Một trường ĐH dành hơn 9 tỉ đồng khen thưởng và trao học bổng</h4>
+        <p>
+            Năm học mới 2024-2025, Trường ĐH Cửu Long dành hơn 9 tỉ đồng khen thưởng và trao học bổng cho tân sinh viên.
+        </p></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
